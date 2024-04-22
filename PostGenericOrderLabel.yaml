@@ -1,0 +1,419 @@
+definitions: 
+  shipment: 
+    type: object
+    properties: 
+      logId: 
+        type: string
+        example: MSTEST-666-FEDEXTPWW9
+      Id: 
+        type: string
+        format: nullable
+      shipmentId: 
+        type: string
+        example: MSTEST-666-FEDEXTPWW9
+      orderId: 
+        type: string
+        example: MSTEST-666-FEDEXTPWW9
+      consignmentId: 
+        type: string
+        example: 
+      shipmentDesc: 
+        type: string
+        example: test t desc
+      status: 
+        type: string
+        example: 
+      message: 
+        type: string
+        example: 
+      carrierName: 
+        type: string
+        example: FedexCrossBorder
+      trackingNumber: 
+        type: string
+        example: 
+      trackingURL: 
+        type: string
+        example: 
+      customerId: 
+        type: string
+        example: Test
+      invoiceDate: 
+        type: string
+        format: date
+        example: 2024-04-11
+      unitOfMeasureW: 
+        type: string
+        example: KGS
+      unitOfMeasureD: 
+        type: string
+        example: M
+      invoiceNumber: 
+        type: string
+        example: 
+      instructions: 
+        type: string
+        example: test
+      notificationLanguage: 
+        type: string
+        example: 
+      wayBill: 
+        type: string
+        example: 
+      altTrackingNumber: 
+        type: string
+        format: nullable
+      consolidationId: 
+        type: string
+        example: 
+      carrierconsolidationId: 
+        type: string
+        example: 
+      createInvoice: 
+        type: string
+        example: Y
+      shipmentTotal: 
+        type: integer
+        format: int32
+        example: 150
+      packageType: 
+        type: string
+        example: carton
+      streamType: 
+        type: string
+        example: B2C
+      reference1: 
+        type: string
+        example: 
+      remark1: 
+        type: string
+        example: remark
+      remark2: 
+        type: string
+        example: 
+      remark3: 
+        type: string
+        example: 
+      bmshipmentVar1: 
+        type: string
+        example: 
+      bmshipmentVar2: 
+        type: string
+        format: nullable
+      bmshipmentVar3: 
+        type: string
+        format: nullable
+      bmshipmentVar4: 
+        type: string
+        format: nullable
+      salesChannel: 
+        type: string
+        example: 
+      depotid: 
+        type: string
+        example: 
+      maxnoofCartons: 
+        type: integer
+        format: int32
+        example: 0
+      paymentInfo: 
+        type: string
+        format: nullable
+      freightCosts: 
+        type: integer
+        format: int32
+        example: 0
+      freightCostsCurrency: 
+        type: string
+        format: nullable
+      fromAddress: 
+        type: object
+        properties: 
+          companyName: 
+            type: string
+            example: fcnae
+          name: 
+            type: string
+            example: 
+          contact: 
+            type: string
+            example: 
+          street1: 
+            type: string
+            example: fstreet1
+          street2: 
+            type: string
+            example: 
+          hNo: 
+            type: string
+            format: nullable
+          postal: 
+            type: string
+            example: 9770
+          requestpostal: 
+            type: string
+            example: 
+          city: 
+            type: string
+            example: fcity
+          state: 
+            type: string
+            format: nullable
+          country: 
+            type: string
+            example: UK
+          phone: 
+            type: string
+            example: 0499999999
+          requestphone: 
+            type: string
+            example: 
+          email: 
+            type: string
+            example: x@x.com
+          taxId: 
+            type: string
+            example: Ft45
+          eoriId: 
+            type: string
+            example: 
+          hmrcId: 
+            type: string
+            example: 
+          ioss: 
+            type: string
+            example: Fi12
+          iossCountryCode: 
+            type: string
+            format: nullable
+          pidId: 
+            type: string
+            example: 
+      toAddress: 
+        type: object
+        properties: 
+          addressId: 
+            type: string
+            example: 
+          companyName: 
+            type: string
+            example: testtcnme
+          name: 
+            type: string
+            example: 
+          contact: 
+            type: string
+            format: nullable
+          street1: 
+            type: string
+            example: 77 McDowall Street
+          street2: 
+            type: string
+            format: nullable
+          hNo: 
+            type: string
+            format: nullable
+          postal: 
+            type: string
+            example: 4560
+          requestpostal: 
+            type: string
+            example: 
+          city: 
+            type: string
+            example: Cooloolabin
+          state: 
+            type: string
+            example: Queensland
+          country: 
+            type: string
+            example: AU
+          phone: 
+            type: string
+            example:  +610753386639
+          requestphone: 
+            type: string
+            example: 
+          email: 
+            type: string
+            example: tharuni.reddy@apoyar.eu
+          taxId: 
+            type: string
+            format: nullable
+          eoriId: 
+            type: string
+            example: 
+          hmrcId: 
+            type: string
+            example: 
+          ioss: 
+            type: string
+            example: 
+          iossCountryCode: 
+            type: string
+            example: 
+          pidId: 
+            type: string
+            example: 
+          specialConsignee: 
+            type: string
+            example: 
+      soldToAddress: 
+        type: string
+        format: nullable
+      exporter: 
+        type: string
+        format: nullable
+      pudoAddress: 
+        type: object
+        properties: 
+          companyName: 
+            type: string
+            example: 
+          name: 
+            type: string
+            example: 
+          contact: 
+            type: string
+            example: 
+          street1: 
+            type: string
+            example: 
+          street2: 
+            type: string
+            example: 
+          hNo: 
+            type: string
+            example: 
+          postal: 
+            type: string
+            example: 
+          city: 
+            type: string
+            example: 
+          state: 
+            type: string
+            example: 
+          country: 
+            type: string
+            example: 
+          phone: 
+            type: string
+            example: 
+          email: 
+            type: string
+            example: 
+          PUDOId: 
+            type: string
+            example: 12
+      service: 
+        type: object
+        properties: 
+          serviceCode: 
+            type: string
+            example: TPWW
+          serviceType: 
+            type: string
+            example: 
+          depotName: 
+            type: string
+            format: nullable
+          depotId: 
+            type: string
+            format: nullable
+          parcelShop: 
+            type: object
+            properties: 
+              id: 
+                type: string
+                format: nullable
+              country: 
+                type: string
+                format: nullable
+              notificationChannel: 
+                type: string
+                format: nullable
+              notificationValue: 
+                type: string
+                format: nullable
+              notificationLanguage: 
+                type: string
+                format: nullable
+      deliveryOptions: 
+        type: object
+        properties: 
+          deliveryType: 
+            type: string
+            format: nullable
+          saturdayDelivery: 
+            type: boolean
+          deliveryTimeStampStart: 
+            type: string
+            format: nullable
+          deliveryTimeStampEnd: 
+            type: string
+            format: nullable
+          deliveryDate: 
+            type: string
+            format: nullable
+          deliveryTimeFrom: 
+            type: string
+            example: 
+          deliveryTimeTo: 
+            type: string
+            example: 
+          transitTime: 
+            type: string
+            format: nullable
+          deliveryTerms: 
+            type: string
+            example: DDP
+      customs: 
+        type: object
+        properties: 
+          reference1: 
+            type: string
+            example: TEST REF
+          reference2: 
+            type: string
+            format: nullable
+      pickup: 
+        type: string
+        format: nullable
+      container: 
+        type: string
+        format: nullable
+      documents: 
+        type: string
+        format: nullable
+      isLabelapp: 
+        type: boolean
+      isManual: 
+        type: boolean
+      bmwmsVar1: 
+        type: string
+        example: 
+      bmwmsVar2: 
+        type: string
+        example: 
+      bmwmsVar3: 
+        type: string
+        example: 
+      bmsiteId: 
+        type: string
+        example: 
+      purchaseOrder: 
+        type: string
+        example: 
+      updatedUsername: 
+        type: string
+        format: nullable
+      marketPlace: 
+        type: string
+        format: nullable
+      platformCode: 
+        type: string
+        example: 
+      platformCarrier: 
+        type: string
+        example: 
