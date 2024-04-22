@@ -1,0 +1,140 @@
+---
+shipment:
+  logId: MSTEST-666-FEDEXTPWW9
+  Id: 
+  shipmentId: MSTEST-666-FEDEXTPWW9
+  orderId: MSTEST-666-FEDEXTPWW9
+  consignmentId: ''
+  shipmentDesc: test t desc
+  status: ''
+  message: ''
+  carrierName: FedexCrossBorder
+  trackingNumber: ''
+  trackingURL: ''
+  customerId: Test
+  invoiceDate: '2024-04-11'
+  unitOfMeasureW: KGS
+  unitOfMeasureD: M
+  invoiceNumber: ''
+  instructions: test
+  notificationLanguage: ''
+  wayBill: ''
+  altTrackingNumber: 
+  consolidationId: ''
+  carrierconsolidationId: ''
+  createInvoice: Y
+  shipmentTotal: 150
+  packageType: carton
+  streamType: B2C
+  reference1: ''
+  remark1: remark
+  remark2: ''
+  remark3: ''
+  bmshipmentVar1: ''
+  bmshipmentVar2: 
+  bmshipmentVar3: 
+  bmshipmentVar4: 
+  salesChannel: ''
+  depotid: ''
+  maxnoofCartons: 0
+  paymentInfo: 
+  freightCosts: 0
+  freightCostsCurrency: 
+  fromAddress:
+    companyName: fcnae
+    name: ''
+    contact: ''
+    street1: fstreet1
+    street2: ''
+    hNo: 
+    postal: '9770'
+    requestpostal: ''
+    city: fcity
+    state: 
+    country: UK
+    phone: '0499999999'
+    requestphone: ''
+    email: x@x.com
+    taxId: Ft45
+    eoriId: ''
+    hmrcId: ''
+    ioss: Fi12
+    iossCountryCode: 
+    pidId: ''
+  toAddress:
+    addressId: ''
+    companyName: testtcnme
+    name: ''
+    contact: 
+    street1: 77 McDowall Street
+    street2: 
+    hNo: 
+    postal: '4560'
+    requestpostal: ''
+    city: Cooloolabin
+    state: Queensland
+    country: AU
+    phone: " +610753386639"
+    requestphone: ''
+    email: tharuni.reddy@apoyar.eu
+    taxId: 
+    eoriId: ''
+    hmrcId: ''
+    ioss: ''
+    iossCountryCode: ''
+    pidId: ''
+    specialConsignee: ''
+  soldToAddress: 
+  exporter: 
+  pudoAddress:
+    companyName: ''
+    name: ''
+    contact: ''
+    street1: ''
+    street2: ''
+    hNo: ''
+    postal: ''
+    city: ''
+    state: ''
+    country: ''
+    phone: ''
+    email: ''
+    PUDOId: '12'
+  service:
+    serviceCode: TPWW
+    serviceType: ''
+    depotName: 
+    depotId: 
+    parcelShop:
+      id: 
+      country: 
+      notificationChannel: 
+      notificationValue: 
+      notificationLanguage: 
+  deliveryOptions:
+    deliveryType: 
+    saturdayDelivery: false
+    deliveryTimeStampStart: 
+    deliveryTimeStampEnd: 
+    deliveryDate: 
+    deliveryTimeFrom: ''
+    deliveryTimeTo: ''
+    transitTime: 
+    deliveryTerms: DDP
+  customs:
+    reference1: TEST REF
+    reference2: 
+  pickup: 
+  container: 
+  documents: 
+  isLabelapp: false
+  isManual: false
+  bmwmsVar1: ''
+  bmwmsVar2: ''
+  bmwmsVar3: ''
+  bmsiteId: ''
+  purchaseOrder: ''
+  updatedUsername: 
+  marketPlace: 
+  platformCode: ''
+  platformCarrier: ''
